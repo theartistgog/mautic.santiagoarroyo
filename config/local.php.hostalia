@@ -1,0 +1,14 @@
+<?php
+$parameters = array(
+    'db_driver' => 'pdo_mysql',
+    'db_host' => 'PMYSQL110.dns-servicio.com',
+    'db_port' => '3306',
+    'db_name' => '6817528_mautic.santiagoarroyo',
+    'db_user' => 'artistgog',
+    'db_password' => 'TU_CONTRASEÑA_AQUI',
+    'db_table_prefix' => null,
+    'db_backup_tables' => 1,
+    'db_backup_prefix' => 'bak_',
+    'site_url' => 'https://marketing.santiagoarroyo.es',
+    'secret_key' => 'd935f46fc68e540f0cf3342b2423026ab0e65f0bbea0c04ebf7cbb3244e8f7d4',
+);
