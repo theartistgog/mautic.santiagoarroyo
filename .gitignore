@@ -1,0 +1,41 @@
+# Mautic gitignore
+
+# Config local (contiene credenciales)
+/config/local.php
+
+# Cache y logs
+/var/cache/*
+/var/logs/*
+/var/tmp/*
+!/var/cache/.gitkeep
+!/var/logs/.gitkeep
+!/var/tmp/.gitkeep
+
+# Vendor (se instala con composer)
+/vendor/
+
+# Media subido por usuarios
+/media/files/*
+/media/images/*
+!/media/files/.gitkeep
+!/media/images/.gitkeep
+
+# Node modules
+/node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Traducciones descargadas (se pueden descargar de nuevo)
+/translations/*/
+
+# Test files
+/test.php
+/test_cwd.php
