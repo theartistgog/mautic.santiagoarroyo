@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ 'lang'|trans }}">
+    <head>
+        <title>{% block title %}{{ 'title'|trans }}{% endblock %}</title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <div>
+            {% block fos_oauth_server_content %}
+            {% endblock fos_oauth_server_content %}
+        </div>
+    </body>
+</html>

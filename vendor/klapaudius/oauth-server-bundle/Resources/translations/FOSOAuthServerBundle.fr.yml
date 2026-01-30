@@ -1,0 +1,5 @@
+lang: "fr"
+title: "Authentification"
+authorize:
+    accept: "Accepter"
+    reject: "Refuser"

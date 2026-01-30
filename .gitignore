@@ -11,8 +11,8 @@
 !/var/logs/.gitkeep
 !/var/tmp/.gitkeep
 
-# Vendor (se instala con composer)
-/vendor/
+# Vendor - incluido para facilitar despliegue
+# /vendor/
 
 # Media subido por usuarios
 /media/files/*
